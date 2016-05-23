@@ -14,7 +14,11 @@ EXDIV=0;    %Specified div in number of periods
 
 [prices1,c_bin1] = binprice(S0,X,R,T,DT,SIG,FLAG);
 
+display('One-Period Call Optoion result using Binonial Tree model')
+display(['Matlab built-in function binomial-tree result=',num2str(c_bin1(1,1))])
+
 M=1/DT;
+
 C0= EuroCallBinomial(S0,X,R,T,SIG,M);
 
-
+display(['My result of binomial-tree result=',num2str(C0)]);

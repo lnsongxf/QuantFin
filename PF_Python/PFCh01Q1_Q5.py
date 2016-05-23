@@ -60,7 +60,6 @@ print("==Vairables======|======Mean========|======Std=======|======Skewness====|
 print("Stock Prices:",stats.describe(d)[2:])
 print("Log-Returns :",stats.describe(y)[2:])
 print("St~ized Rets :",stats.describe(std_ret)[2:])
-#print(std_ret)
 
 dLen=2499;#
 plt.figure(1);
