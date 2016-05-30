@@ -108,7 +108,7 @@
       pointInterval: 24 * 3600 * 1000,
       pointStart: Date.UTC(2001, 0, 1),
       data: [
-				1837.36	,
+	1837.36	,
 1785.86	,
 1875.56	,
 1855.82	,
@@ -2629,14 +2629,14 @@
 
    var json = {};
 
+   json.chart = chart;
    json.title = title;
    json.subtitle = subtitle;
+   json.legend = legend;
    json.xAxis = xAxis;
    json.yAxis = yAxis;
-   json.tooltip = tooltip;
-   json.legend = legend;
    json.series = series;
-
+   json.plotOptions = plotOptions;
    $('#container').highcharts(json);
 });
 </script>
