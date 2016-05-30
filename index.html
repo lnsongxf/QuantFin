@@ -31,20 +31,20 @@
 <h3>
 <a id="Computing Softwares" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Computing Softwares</h3>
 
-<p>主要演示的计算软甲包括Python，Matlab,R以及Julia.</p>
+<p>主要演示的计算软甲包括Python,Matlab,R,Tensorflow以及Julia.</p>
 
 <h3>
 <a id="Visualization" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>可视化演示</h3>
 
 <p>用可视化Js包，演示一些结果。</p>
-		<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
-		<script language="JavaScript">
+	<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+	<script language="JavaScript">
 	$(document).ready(function() {
    var chart = {
       zoomType: 'x'
    };
    var title = {
-      text: '测试中S&P 500 Stock Prices from 2001 through 2010'
+      text: '测试中S&P 500 股价'
    };
    var subtitle = {
       text: document.ontouchstart === undefined ?
@@ -2672,7 +2672,7 @@ $(document).ready(function() {
    };
    var series= [{
       type: 'area',
-      name: 'S&P 500 Valatilites calcluated by GARCH(1,1)',
+      name: '测试中S&P 500 波动率Valatilites calcluated by GARCH(1,1)',
       pointInterval: 24 * 3600 * 1000,
       pointStart: Date.UTC(2001, 0, 1),
       data:[ 0.189652432	,
