@@ -1,3 +1,19 @@
+/**
+* Copyright 2014 NVIDIA Corporation.  All rights reserved.
+*
+* Please refer to the NVIDIA end user license agreement (EULA) associated
+* with this source code for terms and conditions that govern your use of
+* this software. Any use, reproduction, disclosure, or distribution of
+* this software and related documentation outside the terms of the EULA
+* is strictly prohibited.
+*
+*/
+
+/**Modified, updated and re-oragnized some part of codes 
+* by Dr. Yingfeng Yu, CUEB, School of Finance,
+* Only for education purpose
+*/
+
 #include "cuda.h"
 #include "stdio.h"
 #include "stdlib.h"
