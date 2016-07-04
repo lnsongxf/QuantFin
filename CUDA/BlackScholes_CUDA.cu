@@ -11,6 +11,7 @@
 
 /**Modified, updated and re-oragnized some part of codes 
 * by Dr. Yingfeng Yu, CUEB, School of Finance,
+* last modified Jul,4th,2016
 * Only for education purpose
 */
 
