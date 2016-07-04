@@ -1,6 +1,6 @@
 # demo my course materials
 Teaching materials related to my courses
-* BSM formula
+* BSM formula(matlab,py,C/C++,CUDA C)
 * A simple Garch11 demo
 * I frequently use Peter Christoffersen's textbook "Elements of Financial Risk Management; Academic Press; Issue: 2nd Edition; 2011"
 * In his textbook, he only provides excel version of his exercise results.
