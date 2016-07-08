@@ -17,7 +17,7 @@ class call_option:
 
     def __del__(self):
         class_name =self.__class__.__name__
-        print class_name, ":delete our call_option obj"
+        print(class_name, ':delete our call_option obj')
 
     def val(self):
         val=(self.S0*stats.norm.cdf(self.d1, 0.0, 1.0)-self.K*exp(-self.r*(self.T-self.t))*stats.norm.cdf(self.d2, 0.0, 1.0))

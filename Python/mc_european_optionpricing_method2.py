@@ -16,8 +16,8 @@ S[0]=S0
 C0=mh.exp(-r*T)*sum(np.maximum(S[-1]-K,0))/I
 
 time_comsume=time()-t0
-print("European Option Price=",C0)
-print("Time used=",time_comsume,"(seconds)")
+print('European Option Price=',C0)
+print('Time used=',time_comsume,'(seconds)')
 
 
 plt.subplot(2,2,1)
